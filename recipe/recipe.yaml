@@ -1,5 +1,5 @@
 context:
-  version: "0.1.2"
+  version: "0.2.0"
 
 package:
   name: modctl
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/modelpack/modctl/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: b8f17e5c219cdffcb1cb4f2e7c7b3e9ebd2b597243146c9e992b5b259590fa34
+  sha256: aba507fa6e3a928590520cc267cf0ec1351e01c7b88e5c746404781f409a473d
   target_directory: src
 
 build:
